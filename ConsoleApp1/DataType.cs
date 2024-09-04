@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class DataType
+    public class DataType
     {
+        public bool CheckTrue()
+        {
+            return true;
+        }
+        public bool CheckFalse()
+        {
+            return false;
+        }
+        public Nullable<int> CheckNull()
+        {
+            return null;
+        }
     }
 }
