@@ -49,15 +49,15 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\TDD_APP.csproj">
-      <Project>{71fe2e38-bfd6-4392-af09-ec9caf973112}</Project>
+    <ProjectReference Include="..\TDD_APP\TDD_APP.csproj">
+      <Project>{9a987b20-0b5d-46e8-9413-47eebfdfdbea}</Project>
       <Name>TDD_APP</Name>
     </ProjectReference>
   </ItemGroup>
